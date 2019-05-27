@@ -42,5 +42,6 @@ tbl_subjectyx <- group_by(tbl_subjectyx, subject, activity)
 subjectyx_means <- summarize_all(tbl_subjectyx, funs(mean))
 
 write.table(subjectyx_means, file = "subjectyx_means.txt", row.names = FALSE)
+write.table(subjectyx, file = "subjectyx.txt", row.names = FALSE)
 
 
