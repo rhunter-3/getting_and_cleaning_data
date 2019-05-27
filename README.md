@@ -1,9 +1,9 @@
 # Course Project: Getting and Cleaning Data
 This repository is the submission of the course project for the Coursera course "Getting and Cleaning Data".
 
-## Descprion of anlaysis file
+## Description of analysis file
 
-This repository contains a file called *run_analysis.R* that will preform the steps outlined below providing the UCI HAR Dataset is in the working directory. This repository also contains a codebook describing the datasets and variables.
+This repository contains a file called *run_analysis.R* that will preform the steps outlined below providing the UCI HAR Dataset is in the working directory. This repository also contains a codebook.md file describing the datasets and variables.
 
 Parts of the analysis require the *dplyr* package.
 
